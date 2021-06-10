@@ -29,8 +29,12 @@ var a=prompt("dimmi valore di a")
 
 var b=prompt("dimmi un valore più grande di b");
 
+
+
 if(a>b){
-    a=b;
+    var c=b;
+    b=a;
+    a=c;
 }
 
 var finale=compresi(array,a,b);
